@@ -1,0 +1,44 @@
+.main{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    padding: 0px 10px 10px 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 972px) {
+    .main h1{
+        font-size: 40px;
+    }
+
+    .main h2{
+        font-size: 35px;
+    }
+
+    .main p{
+        font-size: 30px;
+    }
+    .main ul li{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 356px) {
+    .main h1{
+        font-size: 60px;
+    }
+
+    .main h2{
+        font-size: 55px;
+    }
+
+    .main p{
+        font-size: 45px;
+    }
+    .main ul li{
+        font-size: 55px;
+    }
+    
+    
+}

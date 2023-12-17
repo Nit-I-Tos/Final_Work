@@ -1,0 +1,202 @@
+.app{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.progress{
+    border-radius: 10%;
+    display: none;
+    margin: 20px auto;
+    flex-direction: column;
+    width: 500px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+.progress h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 35px;
+   margin: 10px 5px 60px 5px
+}
+
+.progress ul{
+    list-style: none;
+    padding: 0px;
+
+}
+
+.progress ul li{
+    cursor: pointer;
+    font-size: 20px;
+    border: solid 3px white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0px 0px 30px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.progress ul li:hover{
+    border-color: black;
+    box-shadow: 2px 2px 5px 5px rgb(167, 160, 160);
+}
+
+
+
+.progressBarBrd{
+    width: 300px;
+    height: 10px;
+    margin: 10px auto;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+
+.progressBar{
+    height: 100%;
+    background: linear-gradient(gold, #c85, gold);
+    background-repeat: repeat;
+    box-shadow: 0 0 10px 0px orange;
+    animation: 
+      shine 4s ease-in infinite,
+      end 1s ease-out 1 7s;
+    transition: width 1s ease 0s;
+}
+
+.result{
+    display: flex;
+    border-radius: 10%;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+}
+
+.result img{
+    width: 150px;
+    height: 100px;
+
+}
+
+.startPage{
+    display: flex;
+    border-radius: 10%;
+    background-image: url(https://psychosearch.ru/media/k2/items/cache/58b053c805beeea9e04dde1724076741_XL.jpg);
+    background-size: 700px 600px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    margin: 30px auto;
+}
+
+.startPage button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 972px) {
+    
+    .startPage{
+        width: 700px;
+        height: 800px;
+        background-size: 900px 800px;
+        font-size: 30px;
+    }
+    .startPage button{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .progress{
+        height: 800px;
+        width: 700px;
+    }
+    .progress h1{
+        font-size: 50px;
+    }
+    .progress ul li{
+        font-size: 35px;
+        width: 450px;
+    }
+    .result{
+        height: 600px;
+        width: 600px;
+    }
+    .result svg{
+        height: 300px;
+        width: 300px;
+    }
+    .result h2{
+        font-size: 35px;
+    }
+    .result button{
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .startPage{
+        width: 800px;
+        height: 1000px;
+        background-size: 1100px 1000px;
+        font-size: 30px;
+    }
+    .startPage button{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .progress{
+        width: 800px;
+        height: 1000px;
+    }
+    .progress h1{
+        font-size: 70px;
+    }
+    .progress ul li{
+        font-size: 50px;
+        width: 600px;
+    }
+    .result{
+        height:800px;
+        width: 800px;
+    }
+    .result svg{
+        height: 400px;
+        width: 400px;
+    }
+    .result h2{
+        font-size: 50px;
+    }
+    .result button{
+        height: 50px;
+        width: 300px;
+        font-size: 30px;
+    }
+}

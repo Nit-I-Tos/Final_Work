@@ -1,0 +1,51 @@
+.conteiner{
+    background-color: black;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border: solid 2px white;
+
+
+}
+
+.conteiner p{
+    font-size: 20px;
+
+
+}
+
+@media screen and (max-width: 972px) {
+    .conteiner h1{
+        font-size: 40px;
+    }
+
+    .conteiner h3{
+        font-size: 35px;
+    }
+
+    .conteiner p{
+        font-size: 30px;
+    }
+    .conteiner ul li{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .conteiner h1{
+        font-size: 60px;
+    }
+
+    .conteiner h3{
+        font-size: 55px;
+    }
+
+    .conteiner p{
+        font-size: 45px;
+    }
+    .conteiner ul li{
+        font-size: 55px;
+    }
+    
+    
+}

@@ -1,0 +1,31 @@
+.mainConteiner{
+    max-width: 1196px;
+    margin: 0px;
+    height: 300px;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.window{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.allItem{
+    height: 100%;
+    display: flex;
+    
+
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.arrow{
+    cursor: pointer;
+    fill: white;
+}

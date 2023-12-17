@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Monoton', sans-serif;
+    font-size: x-large;
+    border: solid 2px;
+    border-color: white;
+    }
+    
+    .header img {
+      width: auto;
+      padding-right: 10px;
+      height: 7vh ;
+    }
+
+    @media screen and (max-width: 972px){
+      .header img{
+        width: auto;
+        height: 10vh;
+      }
+      .header{
+        font-size: 30px;
+      }
+    }
+    @media screen and (max-width: 375px){
+      .header img{
+        width: auto;
+        height: 15vh;
+      }
+      .header{
+        font-size: 40px;
+      }
+    }
